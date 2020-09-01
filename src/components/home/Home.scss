@@ -1,0 +1,16 @@
+.cities-page {
+  background-image: url("../../assets/images/istockphoto-993738504-612x612.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  min-height: 95vh;
+}
+
+.search-form {
+  padding: 40px 0;
+}
+
+.cities-page__list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}

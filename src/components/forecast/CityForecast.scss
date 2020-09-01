@@ -1,0 +1,94 @@
+.weather-forecast {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 600px;
+  padding: 5px 0;
+  border-bottom: 1px solid rgba(255, 255, 255, .25);
+  background-color: rgba(0, 0, 0, 0.4);
+
+  &__date {
+    color: #ffffff;
+    font-size: 14px;
+    font-weight: bold;
+    width: 200px;
+    padding: 0 0 0 10px;
+  }
+
+  &__weather {
+    color: #ffffff;
+    font-size: 18px;
+    font-weight: bold;
+    width: 300px;
+    text-align: center;
+  }
+
+  &__temperature {
+    color: #ffffff;
+    font-size: 18px;
+    font-weight: bold;
+    width: 110px;
+    text-align: center;
+  }
+
+  &__img {
+    width: 40px;
+    height: 40px;
+    background-size: contain;
+    background-repeat: no-repeat;
+  }
+}
+
+@media (max-width: 720px) {
+  .weather-forecast {
+    width: 375px;
+
+    &__date {
+      width: 80px;
+      font-size: 12px;
+    }
+
+    &__weather {
+      width: 150px;
+      font-size: 16px;
+    }
+
+    &__temperature {
+      width: 100px;
+      font-size: 16px;
+    }
+
+    &__img {
+      width: 35px;
+      height: 35px;
+    }
+  }
+}
+
+.rain {
+  background-image: url("../../assets/images/rain.png");
+}
+
+.clear {
+  background-image: url("../../assets/images/clear.png");
+}
+
+.clouds {
+  background-image: url("../../assets/images/cloudy.png");
+}
+
+.drizzle {
+  background-image: url("../../assets/images/flurries.png");
+}
+
+.fog {
+  background-image: url("../../assets/images/fog.png");
+}
+
+.mist {
+  background-image: url("../../assets/images/hazy.png");
+}
+
+.snow {
+  background-image: url("../../assets/images/snow01.png");
+}
